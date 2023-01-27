@@ -1,0 +1,368 @@
+{
+  "errors": [
+    {
+      "op": {
+        "op": "replace",
+        "path": "/x/y",
+        "value": 42
+      },
+      "node": {
+        "x": {}
+      },
+      "message": "jsonPatch.noSuchPath"
+    },
+    {
+      "op": {
+        "op": "replace",
+        "path": "/khjd/?/Entitlement Key",
+        "value": "updated",
+        "value_locator": {
+          "Application Key": "100",
+          "Entitlement Type": "UD_GROUPS_GROUPS",
+          "Entitlement Name": "565~Deployment Owners"
+        }
+      },
+      "node": {
+        "Role Display Name": "Test Role Pset",
+        "Role Category": "Default",
+        "Role Name": "Test Role Pset",
+        "Role Description": "Test Role Pset",
+        "Organization": "Confluxsys",
+        "Role Owner Login": "PBULE",
+        "Role ID": "14350",
+        "$identifier": "14350",
+        "Entitlements": [
+          {
+            "Application Key": "100",
+            "Entitlement Type": "UD_GROUPS_GROUPS",
+            "Entitlement Name": "565~Deployment Owners",
+            "Entitlement Key": "askjdhfiegig02k",
+            "Additional Info": "test"
+          }
+        ]
+      },
+      "message": "jsonPatch.noSuchPath"
+    },
+    {
+      "op": {
+        "op": "replace",
+        "path": null,
+        "value": "updated",
+        "value_locator": {
+          "Application Key": "100",
+          "Entitlement Type": "UD_GROUPS_GROUPS",
+          "Entitlement Name": "565~Deployment Owners"
+        }
+      },
+      "node": {
+        "Role Display Name": "Test Role Pset",
+        "Role Category": "Default",
+        "Role Name": "Test Role Pset",
+        "Role Description": "Test Role Pset",
+        "Organization": "Confluxsys",
+        "Role Owner Login": "PBULE",
+        "Role ID": "14350",
+        "$identifier": "14350",
+        "Entitlements": [
+          {
+            "Application Key": "100",
+            "Entitlement Type": "UD_GROUPS_GROUPS",
+            "Entitlement Name": "565~Deployment Owners",
+            "Entitlement Key": "askjdhfiegig02k",
+            "Additional Info": "test"
+          }
+        ]
+      },
+      "message": "jsonPatch.noSuchPath"
+    },
+    {
+      "op": {
+        "op": "replace",
+        "path": "/Entitlements/?/Entitlement Key",
+        "value": "updated",
+        "value_locator": {
+          "Application Key": "100",
+          "Entitlement Type": "UD_GROUPS_GROUPS",
+          "Entitlement Name": "565~Deployment Owners"
+        }
+      },
+      "node": {
+        "Role Display Name": "Test Role Pset",
+        "Role Category": "Default",
+        "Role Name": "Test Role Pset",
+        "Role Description": "Test Role Pset",
+        "Organization": "Confluxsys",
+        "Role Owner Login": "PBULE",
+        "Role ID": "14350",
+        "$identifier": "14350",
+        "Entitlements": [
+          {
+            "Application Key": "691",
+            "Entitlement Type": "UD_GROUPS_GROUPS",
+            "Entitlement Name": "565~Deployment Owners",
+            "Entitlement Key": "askjdhfiegig02k",
+            "Additional Info": "test"
+          }
+        ]
+      },
+      "message": "jsonPatch.noSuchPath"
+    },
+    {
+      "op": {
+        "op": "replace",
+        "path": "/x/y",
+        "value": 42
+      },
+      "node": {
+        "x": {}
+      },
+      "message": "jsonPatch.noSuchPath"
+    },
+    {
+      "op": {
+        "op": "replace",
+        "path": "/x/y",
+        "value": 42
+      },
+      "node": {
+        "x": {}
+      },
+      "message": "jsonPatch.noSuchPath"
+    }
+  ],
+  "ops": [
+    {
+      "op": {
+        "op": "replace",
+        "path": "/Fruits/?/Price",
+        "value": "updated",
+        "value_locator": {
+          "Name": "Apple",
+          "Type": "fruit",
+          "Price": "100"
+        }
+      },
+      "node": {
+        "Role Display Name": "Test Role Pset",
+        "Role Category": "Default",
+        "Role Name": "Test Role Pset",
+        "Role Description": "Test Role Pset",
+        "Organization": "Confluxsys",
+        "Role Owner Login": "PBULE",
+        "Role ID": "14350",
+        "$identifier": "14350",
+        "Fruits": [
+          {
+            "Name": "Apple",
+            "Type": "fruit",
+            "Price": "100"
+          },
+          {
+            "Name": "Banana",
+            "Type": "fruit",
+            "Price": "100"
+          }
+        ]
+      },
+      "expected": {
+        "Role Display Name": "Test Role Pset",
+        "Role Category": "Default",
+        "Role Name": "Test Role Pset",
+        "Role Description": "Test Role Pset",
+        "Organization": "Confluxsys",
+        "Role Owner Login": "PBULE",
+        "Role ID": "14350",
+        "$identifier": "14350",
+        "Fruits": [
+          {
+            "Name": "Apple",
+            "Type": "fruit",
+            "Price": "updated"
+          },
+          {
+            "Name": "Banana",
+            "Type": "fruit",
+            "Price": "100"
+          }
+        ]
+      }
+    },
+    {
+      "op": {
+        "op": "replace",
+        "path": "/Entitlements/?/Entitlement Key",
+        "value": "updated",
+        "value_locator": {
+          "Application Key": "100",
+          "Entitlement Type": "UD_GROUPS_GROUPS",
+          "Entitlement Name": "565~Deployment Owners"
+        }
+      },
+      "node": {
+        "Role Display Name": "Test Role Pset",
+        "Role Category": "Default",
+        "Role Name": "Test Role Pset",
+        "Role Description": "Test Role Pset",
+        "Organization": "Confluxsys",
+        "Role Owner Login": "PBULE",
+        "Role ID": "14350",
+        "$identifier": "14350",
+        "Entitlements": [
+          {
+            "Application Key": "100",
+            "Entitlement Type": "UD_GROUPS_GROUPS",
+            "Entitlement Name": "565~Deployment Owners",
+            "Entitlement Key": "askjdhfiegig02k",
+            "Additional Info": "test"
+          }
+        ]
+      },
+      "expected": {
+        "Role Display Name": "Test Role Pset",
+        "Role Category": "Default",
+        "Role Name": "Test Role Pset",
+        "Role Description": "Test Role Pset",
+        "Organization": "Confluxsys",
+        "Role Owner Login": "PBULE",
+        "Role ID": "14350",
+        "$identifier": "14350",
+        "Entitlements": [
+          {
+            "Application Key": "100",
+            "Entitlement Type": "UD_GROUPS_GROUPS",
+            "Entitlement Name": "565~Deployment Owners",
+            "Entitlement Key": "updated",
+            "Additional Info": "test"
+          }
+        ]
+      }
+    },
+    {
+      "op": {
+        "op": "replace",
+        "path": "/Fruits/?/Price",
+        "value": "updated",
+        "value_locator": {
+          "Name": "Apple",
+          "Type": "fruit",
+          "Price": "100"
+        }
+      },
+      "node": {
+        "Role Display Name": "Test Role Pset",
+        "Role Category": "Default",
+        "Role Name": "Test Role Pset",
+        "Role Description": "Test Role Pset",
+        "Organization": "Confluxsys",
+        "Role Owner Login": "PBULE",
+        "Role ID": "14350",
+        "$identifier": "14350",
+        "Fruits": [
+          {
+            "Name": "Apple",
+            "Type": "fruit",
+            "Price": "100",
+            "quality": "Good"
+          }
+        ]
+      },
+      "expected": {
+        "Role Display Name": "Test Role Pset",
+        "Role Category": "Default",
+        "Role Name": "Test Role Pset",
+        "Role Description": "Test Role Pset",
+        "Organization": "Confluxsys",
+        "Role Owner Login": "PBULE",
+        "Role ID": "14350",
+        "$identifier": "14350",
+        "Fruits": [
+          {
+            "Name": "Apple",
+            "Type": "fruit",
+            "Price": "updated",
+            "quality": "Good"
+          }
+        ]
+      }
+    },
+    {
+      "op": {
+        "op": "replace",
+        "path": "",
+        "value": false
+      },
+      "node": {
+        "x": {
+          "a": "b",
+          "y": {}
+        }
+      },
+      "expected": false
+    },
+    {
+      "op": {
+        "op": "replace",
+        "path": "/x/y",
+        "value": "hello"
+      },
+      "node": {
+        "x": {
+          "a": "b",
+          "y": {}
+        }
+      },
+      "expected": {
+        "x": {
+          "a": "b",
+          "y": "hello"
+        }
+      }
+    },
+    {
+      "op": {
+        "op": "replace",
+        "path": "/0/2",
+        "value": "x"
+      },
+      "node": [
+        [
+          "a",
+          "b",
+          "c"
+        ],
+        "d",
+        "e"
+      ],
+      "expected": [
+        [
+          "a",
+          "b",
+          "x"
+        ],
+        "d",
+        "e"
+      ]
+    },
+    {
+      "op": {
+        "op": "replace",
+        "path": "/x/0",
+        "value": null
+      },
+      "node": {
+        "x": [
+          "y",
+          "z"
+        ],
+        "foo": "bar"
+      },
+      "expected": {
+        "x": [
+          null,
+          "z"
+        ],
+        "foo": "bar"
+      }
+    }
+  ]
+}

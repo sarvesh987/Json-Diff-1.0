@@ -1,0 +1,14 @@
+[
+  {
+    "first": "hello",
+    "second": "hello",
+    "patch": []
+  },
+  {
+    "first": "hello",
+    "second": "hello2",
+    "patch": [
+      { "op": "replace", "path": "/~1/first", "value": "hello", "originalValue": "hello2" }
+    ]
+  }
+]
